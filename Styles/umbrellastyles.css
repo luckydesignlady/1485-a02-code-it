@@ -1,5 +1,45 @@
 @charset "UTF-8";
 /* CSS Document */
 
-h1 {background-color: green;
+body, h1, h2, nav, header, ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	display: inline;
+}
+
+#home {
+	background-color: #f8e514;
+}
+
+.wrapper {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.column-features {
+	background-color:red;
+	width:33%;
+	float:left;
+}
+
+#gallery {
+	clear: both;
+	background: gray;
+	overflow: auto;
+}
+
+.column-gallery {
+	background-color: blue;
+	width: 20%;
+	float: left;
+}
+
+.column-gallery img {
+	width: 100%;
 }
