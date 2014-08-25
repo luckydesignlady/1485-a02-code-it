@@ -17,6 +17,16 @@ header h1 {
 	float: left;
 }
 
+#home {
+  background: #f8e514 url("http://i.imgur.com/G4zOcCO.jpg") no-repeat center;
+  background-height: 100%;
+  min-height:780px;
+}
+
+#home .wrapper {
+  position: relative;
+}
+
 nav li {
     list-style-type: none;
     margin: 0;
@@ -24,6 +34,12 @@ nav li {
 	display: inline;
 	float: right;
 	text-justify:distribute;
+}
+
+nav a{
+	display: block;
+    width: auto;
+	margin: 10px;
 	}
 
 .navbox {
@@ -33,6 +49,7 @@ nav li {
 	float:left;
 	margin-left: 15%;
 	margin-right: 15%;
+	margin-top: 5%;
 	padding: 25px;
 	padding-right: 30px;
 	padding-left: 30px;
@@ -47,6 +64,17 @@ nav li {
 	max-width: 1170px;
 	margin: 0 auto;
 }
+
+
+.introbox {
+	float: left;
+	margin-left: 20%;
+	margin-top: 10%;
+}
+
+
+
+
 
 .column-features {
 	background-color:white;
@@ -67,7 +95,13 @@ nav li {
 	width: 20%;
 	float: left;
 }
-
+.wrapper img {
+	width: 509px;
+	height: 602px;
+	float: right;
+	margin-top: 25px;
+}
+	
 .column-gallery img {
 	width: 100%;
 }
@@ -78,3 +112,8 @@ nav li {
 
 .clearfix {
 	clear: both;
+}
+
+#features h2, #features p{
+	text-align: center;
+}
