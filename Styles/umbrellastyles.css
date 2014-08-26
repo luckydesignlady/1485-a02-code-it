@@ -2,10 +2,12 @@
 /* CSS Document */
 
 *, *:before, *:after{
-	font-family: 'Open Sans', sans-serif;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+}
+
+body {	font-family: 'Open Sans', sans-serif;
 }
 
 body, h1, h2, nav, header, ul, li {
@@ -114,6 +116,32 @@ nav a{
 	clear: both;
 }
 
-#features h2, #features p{
+#features h2, #features p, #gallery h2, #gallery p, #about h2, #people h2{
 	text-align: center;
+}
+
+h3 {margin:0;}
+
+.featurelist {
+  width:33%; /*not necessary when in columns*/
+  padding:20px;
+  overflow:auto;
+  cursor:default;
+}
+
+.column-details:hover {
+  background:#fbfbe9;
+}
+
+.featurelist span {
+  float:left;
+  font-size:30px;
+  line-height:30px;
+  width:15%;
+  margin-top:0;
+}
+
+.featurelist {
+  width:85%;
+  float:left;
 }
