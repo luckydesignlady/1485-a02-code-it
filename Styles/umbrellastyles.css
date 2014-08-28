@@ -46,13 +46,13 @@ nav a{
 
 .navbox {
 	background-color: white;
-	position:static;
+	position:fixed;
 	width: 70%;
 	float:left;
 	margin-left: 15%;
 	margin-right: 15%;
 	margin-top: 5%;
-	padding: 25px;
+	padding: 20px;
 	padding-right: 30px;
 	padding-left: 30px;
 	box-shadow:#666;
@@ -69,9 +69,10 @@ nav a{
 
 
 .introbox {
+	position: relative;
 	float: left;
 	margin-left: 20%;
-	margin-top: 10%;
+	margin-top: 200px;
 }
 
 
@@ -101,7 +102,7 @@ nav a{
 	width: 509px;
 	height: 602px;
 	float: right;
-	margin-top: 25px;
+	margin-top: 200px;
 }
 	
 .column-gallery img {
