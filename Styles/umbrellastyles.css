@@ -19,6 +19,7 @@ header h1 {
 	float: left;
 }
 
+
 #home {
   background: #f8e514 url("http://i.imgur.com/G4zOcCO.jpg") no-repeat center;
   background-height: 100%;
@@ -56,6 +57,7 @@ nav a{
 	padding-right: 30px;
 	padding-left: 30px;
 	box-shadow:#666;
+	z-index:1;
 	}
 
 #home {
